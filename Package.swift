@@ -21,10 +21,6 @@ let package = Package(
         .target(
             name: "ZoomableSwiftImageView"
 		),
-        .testTarget(
-            name: "ZoomableSwiftImageViewTests",
-			dependencies: ["ZoomableSwiftImageView"]
-		),
     ]
 
 )
