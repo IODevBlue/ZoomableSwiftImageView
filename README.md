@@ -97,9 +97,10 @@ Check the [Contributing](https://github.com/IODevBlue/ZoomableSwiftImageView/blo
 
 Usage
 -----
-Create an instance of `ZoomableSwiftImageView` by providing an `Image`:
+Import `ZoomableSwiftImageView` and then create an instance by providing an `Image`:
 ```swift
 import SwiftUI
+import ZoomableSwiftImageView
 
 struct ContentView: View {
     var body: some View {
@@ -112,7 +113,7 @@ struct ContentView: View {
 
 Applications using ZoomableSwiftImageView
 ------------------------------------------
-If your application uses ZoomableSwiftImageView and you'd love to showcase, send an <a href="mailto:iodevblue@gmail.com">email</a> containing:
+If your application uses `ZoomableSwiftImageView` and you'd love to showcase, send an <a href="mailto:iodevblue@gmail.com">email</a> containing:
 - An app icon
 - A link to download your application.
 - A related Github repository.
