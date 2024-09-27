@@ -20,12 +20,12 @@ import SwiftUI
 /// ```
 /// - Authors: IO DevBlue
 /// - Since: v1.0.0
-struct ZoomableSwiftImageView: View {
+public struct ZoomableSwiftImageView: View {
 
 
 
 	// MARK: Variables
-	// Define minimum and maximum scale factors
+	/// Define minimum and maximum scale factors
 	/// The minimum scale factor for zooming.
 	///
 	/// This value determines the smallest scale at which the image can be displayed.
@@ -33,7 +33,8 @@ struct ZoomableSwiftImageView: View {
 	/// The maximum scale factor for zooming.
 	///
 	/// This value determines the largest scale at which the image can be displayed.
-	private let maxScale: CGFloat = 5.0
+	/// - Important: Setting a higher value can cause the image to be dragged completely out of the screen making snapping back impossible.
+	private let maxScale: CGFloat = 2.5
 
 	/// The current scale factor applied to the image.
 	///
@@ -65,7 +66,7 @@ struct ZoomableSwiftImageView: View {
 	/// This computed property sets up the image display, including zooming and panning functionalities.
 	///
 	/// - Returns: A view that allows zooming and panning of the specified image.
-	var body: some View {
+	public var body: some View {
 		GeometryReader { proxy in
 			ZStack {
 				image
@@ -122,15 +123,21 @@ struct ZoomableSwiftImageView: View {
 				let delta = value / lastScale
 				lastScale = value
 
-				// To minimize jittering and limit zooming
+				// Allow zooming beyond maxScale during pinch but minimize jitter
 				if abs(1 - delta) > 0.01 {
-					scale = min(max(scale * delta, minScale), maxScale)
+					scale *= delta // Let the user zoom freely
 				}
 			}
 			.onEnded { _ in
 				lastScale = 1
+				// Snap back to max scale if exceeding maxScale
+				if scale > maxScale {
+					withAnimation {
+						scale = maxScale
+					}
+				}
 				// Snap back to min scale if below minScale
-				if scale < minScale {
+				else if scale < minScale {
 					withAnimation {
 						scale = minScale
 					}
@@ -187,7 +194,7 @@ struct ZoomableSwiftImageView: View {
 		// BUG FIX: The Y-axis offset is doubled to create a more pronounced vertical movement effect
 		// when the image is panned. Additionally, this adjustment helps to maintain
 		// visual balance especially for images with a significantly wider aspect ratio compared to their height.
-		var newOffsetY = offset.y * 2
+		var newOffsetY = offset.y
 
 		// Horizontal boundary check
 		if abs(newOffsetX) > maxOffsetX {
