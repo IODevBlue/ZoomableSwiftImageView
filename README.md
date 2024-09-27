@@ -34,6 +34,7 @@ Features
 --------
 - <details>
 	<summary>Zooming Capabilities</summary>
+	<br>
 	<p>Pinch to zoom in and out of the displayed image allowing for detailed inspection of the image content.</p>
 	<p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/zooming.gif" alt="Zooming"></p>
 </details>
@@ -46,6 +47,7 @@ Features
 
 - <details>
 	<summary>Panning Functionality with Snapback</summary>
+	<br>
 	<p>Pinch to zoom in and out of the displayed image allowing for detailed inspection of the image content.</p>
 	<p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/panning-with-snapback.gif" alt="Panning with Snapback"></p>
 </details>
