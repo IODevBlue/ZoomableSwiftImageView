@@ -32,22 +32,22 @@ Image Galleries: Display images where users can zoom in and out on images for a 
 
 Features
 --------
-- Zooming Capabilities: Pinch to zoom in and out of the displayed image allowing for detailed inspection of the image content.
-<details>
-  <summary>Zooming Capabilities</summary>
-  <p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/zooming.gif" alt="Zooming"></p>
+- <details>
+	<summary>Zooming Capabilities</summary>
+	<p>Pinch to zoom in and out of the displayed image allowing for detailed inspection of the image content.</p>
+	<p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/zooming.gif" alt="Zooming"></p>
 </details>
 
-- Double Tap to Zoom.
-<details>
-  <summary>Double Tap to Zoom</summary>
-  <p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/double-tap-to-zoom.gif" alt="Double Tap to Zoom"></p>
+
+- <details>
+	<summary>Double Tap to Zoom</summary>
+	<p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/double-tap-to-zoom.gif" alt="Double Tap to Zoom"></p>
 </details>
 
-- Panning Functionality with Snapback: Drag the image to pan around. The snapback feature ensures the image remains within defined boundaries when you release it.
-<details>
-  <summary>Panning Functionality with Snapback</summary>
-  <p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/panning-with-snapback.gif" alt="Panning with Snapback"></p>
+- <details>
+	<summary>Panning Functionality with Snapback</summary>
+	<p>Pinch to zoom in and out of the displayed image allowing for detailed inspection of the image content.</p>
+	<p align="center"><img src="https://github.com/IODevBlue/sample-previews/blob/main/api/ios/zoomable-swift-imageview/panning-with-snapback.gif" alt="Panning with Snapback"></p>
 </details>
 
 
