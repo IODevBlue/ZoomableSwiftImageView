@@ -97,7 +97,7 @@ Check the [Contributing](https://github.com/IODevBlue/ZoomableSwiftImageView/blo
 
 Usage
 -----
-Import `ZoomableSwiftImageView` and then create an instance by providing an Image:
+Import `ZoomableSwiftImageView` and then create an instance by providing an `Image`:
 ```swift
 import SwiftUI
 import ZoomableSwiftImageView
