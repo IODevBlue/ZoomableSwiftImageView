@@ -14,6 +14,12 @@ Current tasks to be completed
 - [ ] Callbacks for user dragging and magnification gestures.
 - [ ] Expose API to set zoom in and zoom out limits.
 - [ ] Expose API to set smoothness of the panning.
+- [ ] Extension function `makeZoomable()` on an `Image` instance to make it zoomable.
+- [ ] Initializer that takes in a `UIImage` instance.
+- [ ] Rotation Gesture: Allow the image to be rotated with a two-finger gesture.
+- [ ] Zoom level indicator.
+- [ ] Tap-and-Hold Zoom: Allow tapping and holding the screen to zoom in, then release to zoom out.
+
 
 - Have a new feature in mind?
 - Want to make changes and improvements to documentations and code?
