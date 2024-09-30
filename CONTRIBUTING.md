@@ -19,6 +19,7 @@ Current tasks to be completed
 - [ ] Rotation Gesture: Allow the image to be rotated with a two-finger gesture.
 - [ ] Zoom level indicator.
 - [ ] Tap-and-Hold Zoom: Allow tapping and holding the screen to zoom in, then release to zoom out.
+- [ ] Interoperability with Objective-C.
 
 
 - Have a new feature in mind?
