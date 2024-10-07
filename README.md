@@ -74,24 +74,15 @@ pod 'ZoomableSwiftImageView', '~> 1.0.0'
 pod install
 ```
 
-3. Carthage:
-- Add the following line to your Cartfile:
-```ruby
-github "IODevBlue/ZoomableSwiftImageView" ~> 1.0.0
-```
-- Then run:
-```bash
-carthage update --platform iOS
-```
-- Follow the instructions to link the framework to your project.
-
-4. Manually:
+3. Manually:
 [Download](https://github.com/IODevBlue/ZoomableSwiftImageView/archive/refs/heads/main.zip) the project zip file.
 - Navigate to the `Sources` folder and copy the `ZoomableSwiftImageView` subfolder into your Xcode project.
 - Alternatively, `ZoomableSwiftImageView` is a single source file. You can just copy the `ZoomableSwiftImageView.swift` file to your Xcode project.
 
 If you do make major or minor improvements to the source code, consider making a pull request or an issue to make a contribution.
 Check the [Contributing](https://github.com/IODevBlue/ZoomableSwiftImageView/blob/development/CONTRIBUTING.md) for more information.
+
+4. Carthage is not supported.
 
 
 
