@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2ACDDA42CB4184C0065F1F5 /* ZoomableSwiftImageView in Frameworks */ = {isa = PBXBuildFile; productRef = F2ACDDA32CB4184C0065F1F5 /* ZoomableSwiftImageView */; };
-		F2ACDDB32CB41CE20065F1F5 /* ZoomableSwiftImageView in Frameworks */ = {isa = PBXBuildFile; productRef = F2ACDDB22CB41CE20065F1F5 /* ZoomableSwiftImageView */; };
+		F2ACDDC62CB422C40065F1F5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBC2CB422C30065F1F5 /* README.md */; };
+		F2ACDDC72CB422C40065F1F5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBC2CB422C30065F1F5 /* README.md */; };
+		F2ACDDC82CB422C40065F1F5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBD2CB422C30065F1F5 /* LICENSE */; };
+		F2ACDDC92CB422C40065F1F5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBD2CB422C30065F1F5 /* LICENSE */; };
+		F2ACDDCA2CB422C40065F1F5 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBE2CB422C30065F1F5 /* CHANGELOG.md */; };
+		F2ACDDCB2CB422C40065F1F5 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBE2CB422C30065F1F5 /* CHANGELOG.md */; };
+		F2ACDDCC2CB422C40065F1F5 /* ZoomableSwiftImageView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBF2CB422C30065F1F5 /* ZoomableSwiftImageView.podspec */; };
+		F2ACDDCD2CB422C40065F1F5 /* ZoomableSwiftImageView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDBF2CB422C30065F1F5 /* ZoomableSwiftImageView.podspec */; };
+		F2ACDDCE2CB422C40065F1F5 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDC02CB422C30065F1F5 /* CONTRIBUTING.md */; };
+		F2ACDDCF2CB422C40065F1F5 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDC02CB422C30065F1F5 /* CONTRIBUTING.md */; };
+		F2ACDDD02CB422C40065F1F5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ACDDC12CB422C30065F1F5 /* Package.swift */; };
+		F2ACDDD12CB422C40065F1F5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ACDDC12CB422C30065F1F5 /* Package.swift */; };
+		F2ACDDD22CB422C40065F1F5 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDC52CB422C30065F1F5 /* Sources */; };
+		F2ACDDD32CB422C40065F1F5 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = F2ACDDC52CB422C30065F1F5 /* Sources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2ACDD8A2CB416BE0065F1F5 /* ZoomableSwiftImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomableSwiftImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2ACDDAA2CB4197A0065F1F5 /* ZoomableSwiftImageView_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomableSwiftImageView_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2ACDDBC2CB422C30065F1F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2ACDDBD2CB422C30065F1F5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F2ACDDBE2CB422C30065F1F5 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		F2ACDDBF2CB422C30065F1F5 /* ZoomableSwiftImageView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZoomableSwiftImageView.podspec; sourceTree = "<group>"; };
+		F2ACDDC02CB422C30065F1F5 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		F2ACDDC12CB422C30065F1F5 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		F2ACDDC22CB422C30065F1F5 /* ZoomableSwiftImageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ZoomableSwiftImageView.xcodeproj; sourceTree = "<group>"; };
+		F2ACDDC52CB422C30065F1F5 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2ACDDA42CB4184C0065F1F5 /* ZoomableSwiftImageView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2ACDDB32CB41CE20065F1F5 /* ZoomableSwiftImageView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +57,14 @@
 		F2ACDD802CB416BE0065F1F5 = {
 			isa = PBXGroup;
 			children = (
+				F2ACDDBE2CB422C30065F1F5 /* CHANGELOG.md */,
+				F2ACDDC02CB422C30065F1F5 /* CONTRIBUTING.md */,
+				F2ACDDBD2CB422C30065F1F5 /* LICENSE */,
+				F2ACDDC12CB422C30065F1F5 /* Package.swift */,
+				F2ACDDBC2CB422C30065F1F5 /* README.md */,
+				F2ACDDC52CB422C30065F1F5 /* Sources */,
+				F2ACDDBF2CB422C30065F1F5 /* ZoomableSwiftImageView.podspec */,
+				F2ACDDC22CB422C30065F1F5 /* ZoomableSwiftImageView.xcodeproj */,
 				F2ACDD8B2CB416BE0065F1F5 /* Products */,
 				F2ACDDB12CB41CDC0065F1F5 /* Frameworks */,
 			);
@@ -58,6 +84,11 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2ACDDC32CB422C30065F1F5 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +126,6 @@
 			);
 			name = ZoomableSwiftImageView;
 			packageProductDependencies = (
-				F2ACDDA32CB4184C0065F1F5 /* ZoomableSwiftImageView */,
 			);
 			productName = ZoomableSwiftImageView;
 			productReference = F2ACDD8A2CB416BE0065F1F5 /* ZoomableSwiftImageView.framework */;
@@ -116,7 +146,6 @@
 			);
 			name = "ZoomableSwiftImageView-macOS";
 			packageProductDependencies = (
-				F2ACDDB22CB41CE20065F1F5 /* ZoomableSwiftImageView */,
 			);
 			productName = "ZoomableSwiftImageView-macOS";
 			productReference = F2ACDDAA2CB4197A0065F1F5 /* ZoomableSwiftImageView_macOS.framework */;
@@ -137,6 +166,7 @@
 					};
 					F2ACDDA92CB4197A0065F1F5 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -150,10 +180,15 @@
 			);
 			mainGroup = F2ACDD802CB416BE0065F1F5;
 			packageReferences = (
-				F2ACDDA22CB4184C0065F1F5 /* XCRemoteSwiftPackageReference "ZoomableSwiftImageView" */,
 			);
 			productRefGroup = F2ACDD8B2CB416BE0065F1F5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F2ACDDC32CB422C30065F1F5 /* Products */;
+					ProjectRef = F2ACDDC22CB422C30065F1F5 /* ZoomableSwiftImageView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F2ACDD892CB416BE0065F1F5 /* ZoomableSwiftImageView */,
@@ -167,6 +202,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ACDDC82CB422C40065F1F5 /* LICENSE in Resources */,
+				F2ACDDCA2CB422C40065F1F5 /* CHANGELOG.md in Resources */,
+				F2ACDDCE2CB422C40065F1F5 /* CONTRIBUTING.md in Resources */,
+				F2ACDDD22CB422C40065F1F5 /* Sources in Resources */,
+				F2ACDDCC2CB422C40065F1F5 /* ZoomableSwiftImageView.podspec in Resources */,
+				F2ACDDC62CB422C40065F1F5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ACDDC92CB422C40065F1F5 /* LICENSE in Resources */,
+				F2ACDDCB2CB422C40065F1F5 /* CHANGELOG.md in Resources */,
+				F2ACDDCF2CB422C40065F1F5 /* CONTRIBUTING.md in Resources */,
+				F2ACDDD32CB422C40065F1F5 /* Sources in Resources */,
+				F2ACDDCD2CB422C40065F1F5 /* ZoomableSwiftImageView.podspec in Resources */,
+				F2ACDDC72CB422C40065F1F5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ACDDD02CB422C40065F1F5 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ACDDD12CB422C40065F1F5 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +445,7 @@
 		F2ACDDAF2CB4197A0065F1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -422,6 +472,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -429,6 +480,7 @@
 		F2ACDDB02CB4197A0065F1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -490,30 +542,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F2ACDDA22CB4184C0065F1F5 /* XCRemoteSwiftPackageReference "ZoomableSwiftImageView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/IODevBlue/ZoomableSwiftImageView";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F2ACDDA32CB4184C0065F1F5 /* ZoomableSwiftImageView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2ACDDA22CB4184C0065F1F5 /* XCRemoteSwiftPackageReference "ZoomableSwiftImageView" */;
-			productName = ZoomableSwiftImageView;
-		};
-		F2ACDDB22CB41CE20065F1F5 /* ZoomableSwiftImageView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2ACDDA22CB4184C0065F1F5 /* XCRemoteSwiftPackageReference "ZoomableSwiftImageView" */;
-			productName = ZoomableSwiftImageView;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2ACDD812CB416BE0065F1F5 /* Project object */;
 }
