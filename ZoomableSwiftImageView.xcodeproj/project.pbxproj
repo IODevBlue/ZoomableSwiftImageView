@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F2ACDDA42CB4184C0065F1F5 /* ZoomableSwiftImageView in Frameworks */ = {isa = PBXBuildFile; productRef = F2ACDDA32CB4184C0065F1F5 /* ZoomableSwiftImageView */; };
+		F2ACDDB32CB41CE20065F1F5 /* ZoomableSwiftImageView in Frameworks */ = {isa = PBXBuildFile; productRef = F2ACDDB22CB41CE20065F1F5 /* ZoomableSwiftImageView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ACDDB32CB41CE20065F1F5 /* ZoomableSwiftImageView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				F2ACDD8B2CB416BE0065F1F5 /* Products */,
+				F2ACDDB12CB41CDC0065F1F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,6 +51,13 @@
 				F2ACDDAA2CB4197A0065F1F5 /* ZoomableSwiftImageView_macOS.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2ACDDB12CB41CDC0065F1F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +115,9 @@
 			dependencies = (
 			);
 			name = "ZoomableSwiftImageView-macOS";
+			packageProductDependencies = (
+				F2ACDDB22CB41CE20065F1F5 /* ZoomableSwiftImageView */,
+			);
 			productName = "ZoomableSwiftImageView-macOS";
 			productReference = F2ACDDAA2CB4197A0065F1F5 /* ZoomableSwiftImageView_macOS.framework */;
 			productType = "com.apple.product-type.framework";
@@ -491,6 +504,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		F2ACDDA32CB4184C0065F1F5 /* ZoomableSwiftImageView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2ACDDA22CB4184C0065F1F5 /* XCRemoteSwiftPackageReference "ZoomableSwiftImageView" */;
+			productName = ZoomableSwiftImageView;
+		};
+		F2ACDDB22CB41CE20065F1F5 /* ZoomableSwiftImageView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F2ACDDA22CB4184C0065F1F5 /* XCRemoteSwiftPackageReference "ZoomableSwiftImageView" */;
 			productName = ZoomableSwiftImageView;
